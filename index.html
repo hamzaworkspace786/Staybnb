@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<title>Staybnb</title>
+</head>
+
+<body>
+    <div class="home-header">
+        <nav>
+            <img src="/images/logo.png" alt="description" class="logo-white">
+            <ul class="nav-links">
+                <li><a href="#main">Popular Places</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+            <a href="#signup-box" class="register-btn">Register Now</a>
+        </nav>
+        <div id="signup-box" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Create Your Account</h2>
+                <p>Join us and explore amazing destinations!</p>
+
+                <form>
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter password" required>
+
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="Re-enter password" required>
+
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Find Your Next Stay</h1>
+            <div class="search-bar">
+                <form>
+                    <div class="location-input">
+                        <label>Location</label>
+                        <input type="text" placeholder="Where are you going?">
+                    </div>
+                    <div>
+                        <label>Check in</label>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div>
+                        <label>Check out</label>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div>
+                        <label>Who</label>
+                        <input type="text" placeholder="Add Guest">
+                    </div>
+                    <button type="submit"><img src="/images/search.png" alt="description"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="main" class="home-container">
+        <h2 class="section-title">Explore Destinations</h2>
+        <div class="card-slider">
+            <div class="card">
+                <img src="/images/image-1.png" alt="Paris">
+                <h3>london</h3>
+                <p>Starting from $120/night</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/image-2.png" alt="Rome">
+                <h3>Switzerland</h3>
+                <p>Starting from $95/night</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/image-3.png" alt="London">
+                <h3>Austrailia</h3>
+                <p>Starting from $140/night</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/image-4.png" alt="Dubai">
+                <h3>France</h3>
+                <p>Starting from $180/night</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/image-5.png" alt="New York">
+                <h3>Amsterdam</h3>
+                <p>Starting from $160/night</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/image-6.png" alt="New York">
+                <h3>Netherlands</h3>
+                <p>Starting from $130/night</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/image-7.png" alt="New York">
+                <h3>New York</h3>
+                <p>Starting from $120/night</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/image-8.png" alt="New York">
+                <h3>Chicage</h3>
+                <p>Starting from $110/night</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/image-9.png" alt="New York">
+                <h3>San francisco</h3>
+                <p>Starting from $180/night</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/image-10.png" alt="New York">
+                <h3>Shanghai</h3>
+                <p>Starting from $120/night</p>
+            </div>
+        </div>
+        <h3 class="section2-title">Trending Places</h3>
+        <div class="trending">
+            <div class="places">
+                <img src="/images/dubai.png" alt="description">
+                <h3>Dubai</h3>
+            </div>
+            <div class="places">
+                <img src="/images/new-york.png" alt="description">
+                <h3>New York</h3>
+            </div>
+            <div class="places">
+                <img src="/images/paris.png" alt="description">
+                <h3>Paris</h3>
+            </div>
+            <div class="places">
+                <img src="/images/new-delhi.png" alt="description">
+                <h3>New Delhi</h3>
+            </div>
+        </div>
+        <div class="cta">
+            <h3>Sharing <br> is Earning now</h3>
+            <p>Great Oppuurtunity to make money by <br> sharing your extra space</p>
+            <a href="#" class="cta-btn">Know More</a>
+        </div>
+    </div>
+    <div id="experiences" class="experiences-container">
+        <h2 class="section-title">Popular with travelers from your area</h2>
+        <hr style="margin: 20px 0; border: none; width: 100%; height: 1px; background: #999;">
+        <h2 style="color:#333; margin-top: 12px;">Experiences in Dubai</h2>
+        <div class="experiences card-slider">
+            <div class="experience-card">
+                <img src="/images/experience-dubai-1.avif" alt="description">
+                <h3>Premium Sunset Desert Tour</h3>
+                <p>From 34$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-dubai-2.avif" alt="description">
+                <h3>Experience Luxury Desert Safari</h3>
+                <p>From 41$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-dubai-3.avif" alt="description">
+                <h3>Premium Sunset tour, ATV ride and BBQ</h3>
+                <p>From 45$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-dubai-4.avif" alt="description">
+                <h3>Morning Desert tour with Quad Bike</h3>
+                <p>From 35$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-dubai-5.avif" alt="description">
+                <h3>Desert Safari with BBQ dinners , Live Shows</h3>
+                <p>From 27$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-dubai-6.avif" alt="description">
+                <h3>Safari squad , Sand board and Camel</h3>
+                <p>From 33$/Guest </p>
+            </div>
+        </div>
+        <h2 style="color:#333; margin-top: 12px;">Experiences in London</h2>
+        <div class="experiences card-slider">
+            <div class="experience-card">
+                <img src="/images/experience-london-1.avif" alt="description">
+                <h3>London Sight seeing Walking tout</h3>
+                <p>From 53$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-london-2.avif" alt="description">
+                <h3>Top rated London Harry Potter tour</h3>
+                <p>From 35$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-london-3.avif" alt="description">
+                <h3>Touring hidden pubs of London</h3>
+                <p>From 41$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-london-4.avif" alt="description">
+                <h3>Non-touristy and Unseen London</h3>
+                <p>From 49$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-london-5.avif" alt="description">
+                <h3>No Diet restaurant and Bikes experience</h3>
+                <p>From 39$/Guest </p>
+            </div>
+            <div class="experience-card">
+                <img src="/images/experience-london-6.avif" alt="description">
+                <h3>Eating with Cammile's Head Chef</h3>
+                <p>From 55$/Guest </p>
+            </div>
+        </div>
+    <div id="about" class="about">
+        <h2>About Us</h2>
+         <p>We are passionate about helping travelers discover unique places and unforgettable experiences.
+         From cozy stays to breathtaking destinations, our mission is to make every journey memorable.
+         With a focus on comfort, affordability, and trust, we bring the world closer to you.</p>
+    </div>
+    <div class="footer">
+            <a href="www.facebook.com"><i class="fa fa-facebook"></i>
+            <a href="www.instagram.com"><i class="fa fa-instagram"></i>
+            <a href="www.youtube.com"><i class="fa fa-youtube"></i>
+            <a href="www.likedin.com"><i class="fa fa-linkedin"></i>
+            <a href="www.likedin.com"><i class="fa fa-twitter"></i>
+            <hr>
+            <p>Copyright &copy; 2025 , All rights reserved</p>
+    </div>
+    </div>
+</body>
+</html>
